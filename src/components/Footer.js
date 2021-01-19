@@ -13,13 +13,12 @@ function Footer() {
       <div className="row">
         <div className="col l3 s12">
           <h5 className="white-text">Contact Me</h5>
-          <p className="grey-text text-lighten-4">Feel free to connect with me!</p>
+          <p className="grey-text text-lighten-4">Feel free to connect with me or shoot me an email!</p>
           <ul>
-            <li><a className="waves-effect waves-teal btn-flat white-text" href="https://github.com/phoenixthefirebird" target="blank"><i className="fab fa-github"></i>   Github  </a></li>
-            <li><a className="waves-effect waves-teal btn-flat white-text" href="https://www.linkedin.com/in/phoenixanaisliu/" target="blank"><i className="fab fa-linkedin"></i> Linkedin</a></li>
-            <li><a className="waves-effect waves-teal btn-flat white-text" href="https://www.facebook.com/profile.php?id=100009610880746" target="blank"><i className="fab fa-facebook"></i> Facebook</a></li>
-            <li><a className="waves-effect waves-teal btn-flat white-text" href="#" onClick={emailCopy}><i className="far fa-envelope"></i> Email</a></li>
-            
+            <li><a className="waves-effect waves-light btn btn-flat white-text" href="https://github.com/phoenixthefirebird" target="blank"><i className="fab fa-github"></i>   Github  </a></li>
+            <li><a className="waves-effect waves-light btn btn-flat white-text" href="https://www.linkedin.com/in/phoenixanaisliu/" target="blank"><i className="fab fa-linkedin"></i> Linkedin</a></li>
+            <li><a className="waves-effect waves-light btn btn-flat white-text" href="https://www.facebook.com/profile.php?id=100009610880746" target="blank"><i className="fab fa-facebook"></i> Facebook</a></li>
+            <li><a className="waves-effect waves-light btn btn-flat white-text" href="#" onClick={emailCopy}><i className="far fa-envelope"></i> Email</a></li>            
           </ul>
         </div>
         <div className="col l7 offset-l2 s12">
@@ -56,15 +55,16 @@ function Footer() {
                     </div>
                   </form>
                 </div>
+                <a className="waves-effect waves-light btn btn-flat white-text" type="submit" href="https://github.com/phoenixthefirebird" target="blank">Submit<i class="material-icons right">send</i></a>
             </form>
-  </div>
+          </div>
         </div>
       </div>
     </div>
     <div className="footer-copyright">
       <div className="container">
       © 2020 Copyright Text
-      <a className="grey-text text-lighten-4 right" href="#!">Back to the Top</a>
+      <a className="grey-text text-lighten-4 right" href="#!">Created with React and Materialize</a>
       </div>
     </div>
   </footer>
