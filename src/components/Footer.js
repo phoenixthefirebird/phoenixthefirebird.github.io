@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function Footer() {
     const emailCopy = (e) =>
     {   
@@ -10,7 +11,7 @@ function Footer() {
     <footer className="page-footer red accent-2">
     <div className="container">
       <div className="row">
-        <div className="col l6 s12">
+        <div className="col l3 s12">
           <h5 className="white-text">Contact Me</h5>
           <p className="grey-text text-lighten-4">Feel free to connect with me!</p>
           <ul>
@@ -21,26 +22,39 @@ function Footer() {
             
           </ul>
         </div>
-        <div className="col l4 offset-l2 s12">
+        <div className="col l7 offset-l2 s12">
         <div className="row">
-            <form className="col s12">
+            <form>
                 <div className="row">
+                  <div className="col s6">
                     <div className="input-field">
                         <i className="material-icons prefix">account_circle</i>
                         <input id="icon_prefix" type="text" className="validate"/>
                         <label for="icon_prefix">Full Name</label>
                     </div>
-                    <div className="input-field">
-                        <i className="material-icons prefix">account_circle</i>
-                        <input id="icon_prefix" type="text" className="validate"/>
-                        <label for="icon_prefix">Email</label>
+                  </div>
+                    <div className="col s6">
+                      <div className="input-field">
+                          <i className="material-icons prefix">email</i>
+                          <input id="icon_prefix" type="text" className="validate"/>
+                          <label for="icon_prefix">Email</label>
+                      </div>
                     </div>
-                    <div className="input-field">
-                        <i className="material-icons prefix">account_circle</i>
+                </div>                                    
+                <div className="input-field">
+                        <i className="material-icons prefix">border_color</i>
                         <input id="icon_prefix" type="text" className="validate"/>
                         <label for="icon_prefix">Subject</label>
+                </div>
+                <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Textarea</label>
+                      </div>
                     </div>
-
+                  </form>
                 </div>
             </form>
   </div>
