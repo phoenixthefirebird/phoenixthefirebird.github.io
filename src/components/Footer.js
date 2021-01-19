@@ -63,7 +63,7 @@ function Footer() {
     </div>
     <div className="footer-copyright">
       <div className="container">
-      © 2020 Copyright Text
+      © 2021 Copyright Text
       <a className="grey-text text-lighten-4 right" href="#!">Created with React and Materialize</a>
       </div>
     </div>
