@@ -3,38 +3,30 @@ import React, { useState } from 'react';
 function About() {
   return (
       <div>
-            <h1>Hello! My name is Phoenix, welcome to my portfolio</h1>
+          <br/>
             <div>
-            <img src=".\img\self.png" width="150" height="150" />
-            <h1>Hello! My name is Phoenix</h1>
-            <h3>I'm a 2nd year CPEN student at UBC</h3>
+            <img className="profile-picture" src=".\me.jpg" width="150" height="150" />
+            <h1>Hello! My name is <span className="materialize-red lighten-2 white-text">Phoenix</span></h1>
+            <h5>I'm a 2nd year Computer Engineering student at UBC</h5>
             </div>
             <div>
             <div>
-                <h1>About</h1>
-                <p>[short snippet about my background and aspirations]</p>
+            <blockquote className="left aligned">
+                I believe in impacting the world positively with the power and accessibility of software development.
+            </blockquote>
             </div>
             <div>
-                <p>[interest heading]</p>
-                <ul>
-                <li>[do thing 1]</li>
-                <li>[do thing 2]</li>
-                <li>[do thing 3]</li>
-                </ul>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th><img src="https://cdn.iconscout.com/icon/free/png-256/java-60-1174953.png" alt="Java"/></th>
+                            <th><img src="https://www.freecodecamp.org/news/content/images/2020/05/Python-language.png" alt="Python"/></th>
+                            <th><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="Cpp"/></th>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             </div>
-            <div>
-            <h3>Projects</h3>
-            <div class="grid-table">
-                </div>
-            </div>
-            <div>
-            <h3>Contact</h3>
-            <p>My Links</p>
-            <div>
-            </div>
-            </div>
-
       </div>    
   );
 }

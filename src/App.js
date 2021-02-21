@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import About from './components/About';
+import Center from './components/Center';
 import Footer from './components/Footer';
 import 'materialize-css/dist/js/materialize.min.js';
 
@@ -11,7 +11,7 @@ function App() {
        <Navbar />
      </div>
      <div>
-        <About />
+        <Center />
      </div>
      <div>
         <Footer />
