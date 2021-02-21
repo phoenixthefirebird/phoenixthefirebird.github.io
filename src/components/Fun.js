@@ -4,7 +4,7 @@ function Fun() {
         <div>
             <h2 class="header">⚡ Fun facts:</h2>
             <div className="row">
-                <div class="col s12 m4 l3">                
+                <div class="col s12 m3 l3">                
                     <div class="card horizontal">
                     <div class="card-stacked">
                     <div class="card-content materialize-red lighten-5">
@@ -13,7 +13,7 @@ function Fun() {
                     </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l3">                
+                <div class="col s12 m3 l3">                
                     <div class="card horizontal">
                     <div class="card-stacked">
                     <div class="card-content orange lighten-5">
@@ -22,7 +22,7 @@ function Fun() {
                     </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l3">                
+                <div class="col s12 m3 l3">                
                     <div class="card horizontal">
                     <div class="card-stacked">
                     <div class="card-content blue lighten-5">
@@ -33,7 +33,7 @@ function Fun() {
                     </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l3">                
+                <div class="col s12 m3 l3">                
                     <div class="card horizontal">
                     <div class="card-stacked">
                     <div class="card-content purple lighten-5">
@@ -45,7 +45,7 @@ function Fun() {
                 </div>
             </div>
             <div className="row">
-                <div class="col s12 m4 l3">                
+                <div class="col s12 m3 l3">                
                     <div class="card horizontal">
                     <div class="card-stacked">
                     <div class="card-content cyan lighten-5">
@@ -55,7 +55,7 @@ function Fun() {
                     </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l3">                
+                <div class="col s12 m3 l3">                
                     <div class="card horizontal">
                     <div class="card-stacked">
                     <div class="card-content teal lighten-5">
@@ -66,7 +66,7 @@ function Fun() {
                     </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l3">                
+                <div class="col s12 m3 l3">                
                     <div class="card horizontal">
                     <div class="card-stacked">
                     <div class="card-content deep-orange lighten-5">
