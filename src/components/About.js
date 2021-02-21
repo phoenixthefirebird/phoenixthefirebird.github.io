@@ -8,7 +8,7 @@ function About() {
             <div className="row">
                 <br/>
                 <br/>
-                <div className="col s12 m4">
+                <div className="col s12 l4">
                     <img className="profile-picture" src=".\me.jpg" width="300" height="300" />
                     <div className="sec">
                         <br/>
@@ -22,7 +22,7 @@ function About() {
                         &nbsp; Intersection of Tech and Society */}
                     </div>
                 </div>    
-                <div class="col s12 m8">
+                <div class="col s12 l8">
                     <h1>Hello! I am <span className="materialize-red lighten-1 white-text">Phoenix</span></h1>
                     <blockquote>
                         I'm a software engineer and I'm passionate about delivering user-friendly software with clean and efficient code.

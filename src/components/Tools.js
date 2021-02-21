@@ -158,6 +158,21 @@ function Tools() {
                             </p>
                         </div>
                     </div>
+                    <div className="thumbnail col l2 m4 s6 container">
+                        <img src="https://www.jackenhack.com/wp-content/uploads/2020/01/Quartus_prime_icon.png" alt="Quartus"/>
+                        <div class="overlay2 red accent-1">
+                            <p className="vert">Along with simulation in ModelSim, these two tools carried me through Verilog labs and proficiency tests.
+                            Not shown is the Intel FPGA Monitor Program which made debugging ARM assembly possible for me.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="thumbnail col l2 m4 s6 container">
+                        <img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="Google Collab"/>
+                        <div class="overlay2 purple accent-1">
+                            <p className="vert">I love the Linux VM and GPUs for ML model training, thank you Google for the free resources and credits!
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
