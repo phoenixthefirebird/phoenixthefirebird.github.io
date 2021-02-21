@@ -8,7 +8,7 @@ function Footer() {
         alert("Email copied successfully!");
     } 
   return (
-    <footer className="page-footer red accent-2">
+    <footer className="page-footer red accent-2" id="contact">
     <div className="container">
       <div className="row">
         <div className="col l3 s12">
