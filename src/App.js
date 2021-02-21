@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Center from './components/Center';
 import Footer from './components/Footer';
 import 'materialize-css/dist/js/materialize.min.js';
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 
 
 
@@ -23,13 +23,15 @@ function App() {
     }
   }, []);
 
+  const [panel, setPanel] = useState(1);
+
   return (
     <div className="App">
      <div>
-       <Navbar />
+       <Navbar setPanel={setPanel} />
      </div>
      <div>
-        <Center />
+        <Center panel={panel} />
      </div>
      <div>
         <Footer />

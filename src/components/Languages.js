@@ -2,6 +2,7 @@ function Languages() {
     return (
         <div className="sec">
             <div className="divider"></div>
+            <br/>
             <h5>My Stories with Programming Languages</h5>
             <div className="section">
                 <div className="row">
@@ -70,8 +71,7 @@ function Languages() {
                             </p>
                         </div>
                     </div>
-                </div>  
-                <h5>And more languages to come!</h5>      
+                </div>      
             </div>
         </div>
     )

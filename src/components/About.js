@@ -5,16 +5,41 @@ import Tools from './Tools';
 function About() {
   return (
       <div>
-          <br/>
             <div className="row">
+                <br/>
+                <br/>
                 <div className="col s12 m4">
                     <img className="profile-picture" src=".\me.jpg" width="300" height="300" />
+                    <div className="sec">
+                        <br/>
+                        <i class="fas fa-grin-alt"></i>
+                        &nbsp; She/Her 
+                        <br/>
+                        <i class="fas fa-university"></i>
+                        &nbsp; Second-Year Computer Engineering Student at UBC
+                        {/* <br/>
+                        <i class="fas fa-laptop"></i>
+                        &nbsp; Intersection of Tech and Society */}
+                    </div>
                 </div>    
                 <div class="col s12 m8">
-                    <h1>Hello! I am <span className="materialize-red lighten-2 white-text">Phoenix</span></h1>
-                    <h5>Welcome to my page</h5>
+                    <h1>Hello! I am <span className="materialize-red lighten-1 white-text">Phoenix</span></h1>
                     <blockquote>
-                        I believe in impacting the world positively with the power and accessibility of software development.
+                        I'm a software engineer and I'm passionate about delivering user-friendly software with clean and efficient code.
+                        I strive to not only solve technically challenging problems but also to identify the right problems to solve.
+                        <br/>
+                        <br/>
+                        Through my journey in becoming a better software engineer, I have gone from learning basic programming through books
+                        and coding website, to understanding mathematic reasoning behind algorithms and design concepts and most importantly, 
+                        to learn by building.  I'm fortunate enough to have amazing connections who had shown me unlike academia, there is no 
+                        one definitive path to a good software engineer. It is instead a process of both exploring technologies and what 
+                        truly matters to me. I like to attend business and tech related worshops hosted by student clubs to gain perspectives
+                        in deciding what project to build. 
+                        <br/>
+                        <br/>
+                        Besides time spent on professional development, I love to read a good sci-fi novel, check in (virtually now) with friends
+                        and go to the gym. As tempting as it is to stay in front of my IDE all the time, I recognize that taking care of myself is 
+                        key to productivity (and new ideas)!
                     </blockquote>
                 </div>      
             </div>

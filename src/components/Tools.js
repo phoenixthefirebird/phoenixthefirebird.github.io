@@ -2,6 +2,7 @@ function Tools() {
     return(
         <div className="sec">
             <div className="divider"></div>
+            <br/>
             <h5>Tools and Frameworks I've Worked With</h5>
             <div className="section">
                 <div className="row">
@@ -51,7 +52,8 @@ function Tools() {
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://pytorch.org/assets/images/pytorch-logo.png" alt="PyTorch"/>
                         <div class="overlay2">
-                            <p className="vert">I'm introduced to this library in my applied machine learning class and I love that we have pre-trained models.
+                            <p className="vert">I'm introduced to this library in my applied machine learning class and I love that we have pre-trained models. Check out my
+                            Costa's vs Anna's hummingbird classifier!
                             </p>
                         </div>
                     </div>
@@ -73,23 +75,23 @@ function Tools() {
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://ih1.redbubble.net/image.738129642.6518/raf,750x1000,075,t,FFFFFF:97ab1c12de.jpg" alt="Unix Command"/>
                         <div class="overlay2">
-                            <p className="vert">All the command line and SSH into 
+                            <p className="vert">All the command line and SSH into school server in CPSC classes pays off.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" alt="Docker"/>
                         <div class="overlay2">
-                            <p className="vert">Yes x86 logo looks cool but I chose this not only because I learned x86, but also because ARM and Verilog do not have pretty logos!
-                            I'm not bad at these low level languages. I just love the software side of computer engineering way more.
+                            <p className="vert">I use Docker with my student design team and I love how it speeds up the testing process
+                            and helps with dependency management. I'm still a newbie at it but I plan to learn more about it.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://1000logos.net/wp-content/uploads/2020/08/Visual-Studio-Logo.png" alt="Visual Studio"/>
                         <div class="overlay2">
-                            <p className="vert">Yes x86 logo looks cool but I chose this not only because I learned x86, but also because ARM and Verilog do not have pretty logos!
-                            I'm not bad at these low level languages. I just love the software side of computer engineering way more.
+                            <p className="vert">This was the IDE I used in first year in C programming. Now I just use Valgrind and GDB in Visual Studio and 
+                            forgo the print statements.
                             </p>
                         </div>
                     </div>
@@ -98,46 +100,45 @@ function Tools() {
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://www.selenium.dev/images/selenium_logo_square_green.png" alt="Selenium"/>
                         <div class="overlay2">
-                            <p className="vert">The first (actually the first this time!) programming language I ever learned, but haven't gotten very good at it until
-                            this term when I learned about ES6+ and React.
+                            <p className="vert">I used Selenium to buil a simple shopping bot and later an image scraping program.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://verbose-equals-true.gitlab.io/django-postgres-vue-gitlab-ecs/django.jpg" alt="Django"/>
                         <div class="overlay2">
-                            <p className="vert">I don't consider this to be a programming language but I do like a good webpage (like this one:p). I learned this along with JavaScript.
+                            <p className="vert">This is the first web framework I'm exposed to and it was also through working with the UAS team. I have a 
+                            project idea coming up and I plan to use Django as my backend.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://i1.wp.com/orion42.net/wp-content/uploads/2019/06/Matlab-Logo.png?fit=698%2C702" alt=" MATLAB"/>
                         <div class="overlay2">
-                            <p className="vert">Again first picked up with JavaScript, there is still much to learn about the art of formatting.
+                            <p className="vert">The all powerful tool for mathematicians and engineers that I wish I had the time to use more of. It helped 
+                            when I was learning linear algebra and I went to a presentation about training ML model with MATLAB.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_502,h_518/https://keytotech.com/wp-content/uploads/2019/05/firebase.png" alt="Firebase"/>
                         <div class="overlay2">
-                            <p className="vert">Yes x86 logo looks cool but I chose this not only because I learned x86, but also because ARM and Verilog do not have pretty logos!
-                            I'm not bad at these low level languages. I just love the software side of computer engineering way more.
+                            <p className="vert">I checked out a project based tutorial combining Firebase and React and it will definitely be my go to for lightweight web app.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/flask-logo.png" alt="Flask"/>
                         <div class="overlay2">
-                            <p className="vert">Yes x86 logo looks cool but I chose this not only because I learned x86, but also because ARM and Verilog do not have pretty logos!
-                            I'm not bad at these low level languages. I just love the software side of computer engineering way more.
+                            <p className="vert">If I want a less complex Python web framework than Django Flask would be my choice.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://authy.com/wp-content/uploads/npm-logo.png" alt="npm"/>
                         <div class="overlay2">
-                            <p className="vert">Yes x86 logo looks cool but I chose this not only because I learned x86, but also because ARM and Verilog do not have pretty logos!
-                            I'm not bad at these low level languages. I just love the software side of computer engineering way more.
+                            <p className="vert">Same story with Git: npm was like magic to me when I first started using it and now I cannot do without it. Props to 
+                            the open source community! (Would like to contribute in the future)
                             </p>
                         </div>
                     </div>
@@ -146,21 +147,18 @@ function Tools() {
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://www.logolynx.com/images/logolynx/1d/1d12643eaacd5b3183eae12407bf4891.jpeg" alt="GDB"/>
                         <div class="overlay2">
-                            <p className="vert">Yes x86 logo looks cool but I chose this not only because I learned x86, but also because ARM and Verilog do not have pretty logos!
-                            I'm not bad at these low level languages. I just love the software side of computer engineering way more.
+                            <p className="vert">Trusted (although dreary) tool to debug assembly and C languages. I do try to avoid using GDB in C with Valgrind.
                             </p>
                         </div>
                     </div>
                     <div className="thumbnail col l2 m4 s6 container">
                         <img src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_7ee4293a8aaf4ebae71f9f8dd996e1d5/valgrind.png" alt="Valgrind"/>
                         <div class="overlay2">
-                            <p className="vert">Yes x86 logo looks cool but I chose this not only because I learned x86, but also because ARM and Verilog do not have pretty logos!
-                            I'm not bad at these low level languages. I just love the software side of computer engineering way more.
+                            <p className="vert">Hands down the only thing saving me from core dump errors and memory leaks.
                             </p>
                         </div>
                     </div>
                 </div>
-                <h5 id="scroll">Always love to learn more!</h5>
             </div>
         </div>
     )

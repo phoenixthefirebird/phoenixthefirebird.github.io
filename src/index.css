@@ -8,6 +8,18 @@ body {
   padding: 25px;
 }
 
+/* icon color */
+.fa-university{
+  color: #2196f3;
+}
+.fa-laptop{
+  color: #aa00ff;
+}
+.fa-grin-alt{
+  color: #aa00ff;
+}
+
+/* scrolling */
 html {
   scroll-behavior: smooth;
 }
@@ -2795,6 +2807,7 @@ a {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
+  text-align: left;
   border-left: 5px solid #ee6e73;
 }
 
