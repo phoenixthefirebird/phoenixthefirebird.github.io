@@ -1,7 +1,7 @@
 function Tools() {
     return(
-        <div>
-            <div class="divider"></div>
+        <div className="sec">
+            <div className="divider"></div>
             <h5>Tools and Frameworks I've Worked With</h5>
             <div className="section">
                 <div className="row">
