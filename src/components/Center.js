@@ -5,7 +5,11 @@ import Projects from './Projects';
 import Fun from './Fun';
 import Blog from './Blog';
 
-function Center({panel}) {
+function Center({panel, long}) {
+    if(!long) {
+        if(panel == 0) {
+            return(null);
+        }
         if(panel == 1) {
             return(
                 <About/>
@@ -31,6 +35,17 @@ function Center({panel}) {
                 <Blog/>
             );
         }
+    } else {
+        return(
+            <div>
+                <About/>
+                <Experience/>
+                <Projects/>
+                <Fun/>
+                <Blog/>
+            </div>
+        );
+    }
 }
 
 export default Center

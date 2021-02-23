@@ -6,6 +6,9 @@ https://stackoverflow.com/questions/41657849/cannot-import-materialize-css-in-re
 
 deploy with Netlify
 https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/
+
+need to deploy to github page first before using netlify deploy --prod
+
 ---------------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App

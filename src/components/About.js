@@ -17,15 +17,12 @@ function About() {
                         <br/>
                         <i class="fas fa-university"></i>
                         &nbsp; Second-Year Computer Engineering Student at UBC
-                        {/* <br/>
-                        <i class="fas fa-laptop"></i>
-                        &nbsp; Intersection of Tech and Society */}
                     </div>
                 </div>    
                 <div class="col s12 l8">
                     <h1>Hello! I am <span className="materialize-red lighten-1 white-text">Phoenix</span></h1>
                     <blockquote>
-                        I'm a software engineer and I'm passionate about delivering user-friendly software with clean and efficient code.
+                        I'm a software engineering student and I'm passionate about delivering user-friendly software with clean and efficient code.
                         I strive to not only solve technically challenging problems but also to identify the right problems to solve.
                         <br/>
                         <br/>

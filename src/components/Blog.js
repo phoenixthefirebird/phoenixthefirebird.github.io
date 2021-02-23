@@ -2,7 +2,7 @@
 function Blog() {
     return(
         <div>
-            <h1>Blog</h1>
+            <h1>My Stories</h1>
         </div>
     );
 }

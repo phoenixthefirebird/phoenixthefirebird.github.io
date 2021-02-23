@@ -6,7 +6,7 @@ function Fun() {
 
     return(
         <motion.div ref={constraintsRef}>
-            <h2 class="header">⚡ Fun facts:</h2>
+            <h2 class="header">⚡ Fun facts</h2>
             <div className="row">
                 <motion.div class="col s12 m3 l3" drag
                     dragConstraints={constraintsRef}>                

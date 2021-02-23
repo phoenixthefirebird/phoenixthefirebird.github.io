@@ -18,10 +18,14 @@ body {
 .fa-grin-alt{
   color: #aa00ff;
 }
+.center{
+  text-align:center;
+}
 
 /* scrolling */
 html {
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* image overlay effect */

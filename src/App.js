@@ -24,14 +24,15 @@ function App() {
   }, []);
 
   const [panel, setPanel] = useState(1);
+  const [long, setLong] = useState(false);
 
   return (
     <div className="App">
      <div>
-       <Navbar setPanel={setPanel} />
+       <Navbar setPanel={setPanel} setLong={setLong} long={long}/>
      </div>
      <div>
-        <Center panel={panel} />
+        <Center panel={panel} long={long} />
      </div>
      <div>
         <Footer />

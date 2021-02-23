@@ -18,12 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
 
-function Navbar({setPanel}) {
+function Navbar({setPanel, long, setLong}) {
+
+  function toggle() {
+    const tog = long == false;
+    setLong(tog);
+  }
+
   return (
   <div>
       <nav className="red accent-2">
       <div className="row">
-      <div className ="nav-wrapper col s8">
+      <div className ="nav-wrapper col m8 s6">
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul className ="left hide-on-med-and-down">
             <li><a href="#" onClick={() => setPanel(1)}>About</a></li>
@@ -35,18 +41,15 @@ function Navbar({setPanel}) {
             {/* todo: change the link here */}
         </ul>
         </div>
-        <div className="col s4">
-        <nav>
-          <div className="nav-wrapper red accent-2">
-            <form>
-              <div className="input-field">
-                <input id="search" type="search" required/>
-                <label className="label-icon" for="search"><i className="material-icons">search</i></label>
-                <i className="material-icons">close</i>
-              </div>
-            </form>
+        <div className="col m4 s6">
+        <div className="switch white-text">
+            <label className="white-text">
+              Pagenation
+              <input type="checkbox" onClick={()=>toggle()}/>
+              <span className="lever"></span>
+              Long Page
+            </label>
           </div>
-        </nav>
         </div>
       </div>        
     </nav>
@@ -57,9 +60,8 @@ function Navbar({setPanel}) {
     <li><a href="#" onClick={() => setPanel(3)}>Projects</a></li>
     <li><a href="#" onClick={() => setPanel(4)}>Fun Facts</a></li>
     <li><a href="#" onClick={() => setPanel(5)}>My Stories</a></li>
-    <li><a href="#contact">Contact Me</a></li>
+    <li><a href="#" onClick={() => setPanel(0)}>Contact Me</a></li>
   </ul>
-
   </div>
     
   );
