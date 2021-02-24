@@ -39,7 +39,7 @@ function Center({panel, long}) {
         return(
             <div>
                 <About/>
-                <Experience/>
+                <Experience long={long}/>
                 <Projects/>
                 <Fun/>
                 <Blog/>

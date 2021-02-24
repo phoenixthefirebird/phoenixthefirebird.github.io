@@ -1,22 +1,43 @@
+import {motion} from 'framer-motion'
 
-function Experience() {
+function Experience({long}) {
+    const container = {
+        hidden: { opacity: 1, scale: 0 },
+        visible: {
+          opacity: 1,
+          scale: 1,
+          transition: {
+            delayChildren: long? 5.3: 0.3,
+            staggerChildren: 0.4
+          }
+        }
+      }
+        
+      const item = {
+        hidden: { y: 20, opacity: 0 },
+        visible: {
+          y: 0,
+          opacity: 1
+        }
+      }
+
     return(
-        <div>
+        <motion.div variants={container} initial="hidden" animate="visible">
             <h1>👩🏻‍💻 Experience</h1>
             <br/> 
-            <div className="row">
-                <div className="col s10 offset-s1 l4 offset-l1">
-                <div className="card">
-                    <div className="card-image waves-effect waves-block waves-light">
+            <motion.div className="row">
+                <motion.div className="col s10 offset-s1 l4 offset-l1">
+                <motion.div variants={item} className="card">
+                    <motion.div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src="https://i2.wp.com/www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png?fit=2400%2C2400"/>
-                    </div>
-                    <div className="card-content">
+                    </motion.div>
+                    <motion.div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">Computer Engineering at UBC<i className="material-icons right">more_vert</i></span>
                     <p><a href="#">Sept 2019 - April 2023</a></p>
                     <br/>
                     <p>I listed selected courses I have done but you can always refer to my transcript for all my courses!</p>
-                    </div>
-                    <div className="card-reveal">
+                    </motion.div>
+                    <motion.div className="card-reveal">
                     <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
                     <p><b>Course Work</b></p>
                     <ul>
@@ -62,17 +83,17 @@ function Experience() {
                             &nbsp;<span className="indigo accent-1 white-text">&nbsp;Selenium&nbsp;</span>
                         </li>
                     </ul>
-                    </div>
-                </div>
-                <div className="card">
-                            <div className="card-image waves-effect waves-block waves-light">
+                    </motion.div>
+                </motion.div>
+                <motion.div variants={item} className="card">
+                            <motion.div className="card-image waves-effect waves-block waves-light">
                             <img className="activator" src="https://www.automation.com/getmedia/c31b5263-a584-47b3-b319-a8c56a2e18d5/logo_simplifying_underlogo"/>
-                            </div>
-                            <div className="card-content">
+                            </motion.div>
+                            <motion.div className="card-content">
                             <span className="card-title activator grey-text text-darken-4">Software Developer Intern at Zaber Technologies<i className="material-icons right">more_vert</i></span>
                             <p><a href="#">May 2021 - August 2021</a></p>
-                            </div>
-                            <div className="card-reveal">
+                            </motion.div>
+                            <motion.div className="card-reveal">
                             <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
                             <ul>
                                 <li className="left-align">
@@ -94,20 +115,20 @@ function Experience() {
                                     &nbsp;<span className="red accent-2 white-text center">&nbsp;Go&nbsp;</span>
                                 </li>
                             </ul>
-                            </div>                    
+                            </motion.div>                    
                                             
-                    </div>  
-                </div>
-                <div className="col s10 offset-s1 l4 offset-l1">
-                        <div className="card">
-                            <div className="card-image waves-effect waves-block waves-light">
+                    </motion.div>  
+                </motion.div>
+                <motion.div className="col s10 offset-s1 l4 offset-l1">
+                        <motion.div variants={item} className="card">
+                            <motion.div className="card-image waves-effect waves-block waves-light">
                             <img className="activator" src=".\.\formula.png"/>
-                            </div>
-                            <div className="card-content">
+                            </motion.div>
+                            <motion.div className="card-content">
                             <span className="card-title activator grey-text text-darken-4">Wiring Harness Subteam Member at Formula Electric Student Design Team<i className="material-icons right">more_vert</i></span>
                             <p><a href="#">Sept 2019 - April 2020</a></p>
-                            </div>
-                            <div className="card-reveal">
+                            </motion.div>
+                            <motion.div className="card-reveal">
                             <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
                             <ul>
                                 <li className="left-align">&emsp;• Collaborated with peers to document wiring circuit design for an electric race car with RapidHarness, eliminating
@@ -127,18 +148,18 @@ function Experience() {
                                     &nbsp;<span className="purple accent-1 white-text center">&nbsp;Altium&nbsp;</span>
                                 </li>
                             </ul>
-                            </div>                    
+                            </motion.div>                    
                                             
-                    </div>   
-                    <div className="card">
-                            <div className="card-image waves-effect waves-block waves-light">
+                    </motion.div>   
+                    <motion.div variants={item} className="card">
+                            <motion.div className="card-image waves-effect waves-block waves-light">
                             <img className="activator" src=".\.\UAS.jpg"/>
-                            </div>
-                            <div className="card-content">
+                            </motion.div>
+                            <motion.div className="card-content">
                             <span className="card-title activator grey-text text-darken-4">Software Subteam Member at Unmanned Aircraft System Student Design Team<i className="material-icons right">more_vert</i></span>
                             <p><a href="#">Oct 2020 - Present</a></p>
-                            </div>
-                            <div className="card-reveal">
+                            </motion.div>
+                            <motion.div className="card-reveal">
                             <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
                             <ul>
                                 <li className="left-align">&emsp;• Improved efficiency of telemetry control software by eliminating 0.3 second latency  
@@ -160,12 +181,12 @@ function Experience() {
                                     &nbsp;<span className="orange accent-2 white-text center">&nbsp;Django&nbsp;</span>
                                 </li>
                             </ul>
-                        </div>                                    
-                    </div>                  
-                </div>
-            </div>
+                        </motion.div>                                    
+                    </motion.div>                  
+                </motion.div>
+            </motion.div>
             
-        </div>
+        </motion.div>
     );
 }
 
