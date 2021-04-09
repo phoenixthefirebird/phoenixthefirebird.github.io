@@ -11,6 +11,10 @@ function Projects() {
           return <ProjectCards project={project}></ProjectCards>;
         })}
       </div>
+      <span>
+        And more old projects waiting to be put on here plus some new projects!
+        Stay tuned:)
+      </span>
     </>
   );
 }
