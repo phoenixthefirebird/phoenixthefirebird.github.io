@@ -29,6 +29,26 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffebee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff8a80;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ee6e73;
+}
+
 /* image overlay effect */
 .overlay {
   position: absolute;
@@ -62,13 +82,14 @@ html {
   margin: auto;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
-.container:hover .overlay {
+.icontainer:hover .overlay {
   width: 100%;
   left: 0;
 }
-.container:hover .overlay2 {
+.icontainer:hover .overlay2 {
   width: 100%;
   left: 0;
 }
@@ -84,10 +105,12 @@ html {
 /* thumbnail formatting */
 
 .thumbnail {
+  border-radius: 6px;
   position: relative;
   width: 200px;
   height: 200px;
   overflow: hidden;
+  margin-top: 10px;
 }
 .thumbnail img {
   position: absolute;
@@ -4992,7 +5015,7 @@ small {
 .card.medium .card-content,
 .card.large .card-content {
   max-height: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .card.small .card-action,

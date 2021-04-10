@@ -14,7 +14,7 @@ const ProjectCards = ({ project }) => {
   } = project;
   return (
     <div className="col l4">
-      <div class="card medium">
+      <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator" src={cardImage} />
         </div>
@@ -22,8 +22,6 @@ const ProjectCards = ({ project }) => {
           <span class="card-title activator grey-text text-darken-4">
             {cardTitle}
           </span>
-        </div>
-        <div class="card-content">
           {skills.map((skill) => {
             return <SkillButton skill={skill} style={style}></SkillButton>;
           })}
