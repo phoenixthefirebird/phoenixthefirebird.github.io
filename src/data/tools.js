@@ -112,6 +112,12 @@ export const tools = [
     overlayDesc: `Great for API testing!`,
   },
   {
+    imageUrl: "https://www.netlify.com/img/press/logos/logomark.png",
+    imageAlt: "Netlify",
+    overlayColor: "overlay2 indigo accent-1",
+    overlayDesc: `This website is hosted by Netlify!`,
+  },
+  {
     imageUrl: "https://www.selenium.dev/images/selenium_logo_square_green.png",
     imageAlt: "Selenium",
     overlayColor: "overlay2 amber accent-1",
