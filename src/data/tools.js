@@ -90,12 +90,26 @@ export const tools = [
     Google for the free resources and credits!`,
   },
   {
+    imageUrl:
+      "https://cdn.iconscout.com/icon/free/png-512/google-cloud-2038785-1721675.png",
+    imageAlt: "Google Cloud",
+    overlayColor: "overlay2 cyan accent-1",
+    overlayDesc: `I hosted the backend my first ML webapp here and I'm happy that Google Cloud can handle the
+    big model.`,
+  },
+  {
     imageUrl: "https://authy.com/wp-content/uploads/npm-logo.png",
     imageAlt: "npm",
     overlayColor: "overlay2 green accent-1",
     overlayDesc: `Same story with Git: npm was like magic to me when I first
     started using it and now I cannot do without it. Props to the
     open source community! (Would like to contribute in the future)`,
+  },
+  {
+    imageUrl: "https://miro.medium.com/max/512/1*fVBL9mtLJmHIH6YpU7WvHQ.png",
+    imageAlt: "Postman",
+    overlayColor: "overlay2 red accent-1",
+    overlayDesc: `Great for API testing!`,
   },
   {
     imageUrl: "https://www.selenium.dev/images/selenium_logo_square_green.png",
@@ -149,7 +163,7 @@ export const tools = [
   },
   {
     imageUrl:
-      "https://brandslogos.com/wp-content/uploads/thumbs/intellij-idea-logo-vector.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/768px-IntelliJ_IDEA_Icon.svg.png",
     imageAlt: "IntelliJ",
     overlayColor: "overlay2 red lighten-4",
     overlayDesc:
