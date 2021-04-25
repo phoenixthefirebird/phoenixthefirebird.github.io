@@ -4,18 +4,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.11.2",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "framer-motion": "^3.6.2",
-    "materialize-css": "^1.0.0-rc.2",
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^13.1.5",
+    "framer-motion": "^4.1.9",
+    "materialize-css": "^1.0.0",
     "netlify-cli": "^3.21.9",
-    "react": "^17.0.1",
-    "react-chrono": "^1.9.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "npm-check-updates": "^11.5.1",
+    "react": "^17.0.2",
+    "react-chrono": "^1.9.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,10 +45,9 @@
     ]
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "gh-pages": "^3.1.0",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^4.6.0"
   }
 }

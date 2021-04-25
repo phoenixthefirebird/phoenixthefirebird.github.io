@@ -9,3 +9,6 @@ https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-second
 
 npm run deploy
 need to deploy to github page first before using netlify deploy --prod
+
+check npm update and update it
+https://www.npmjs.com/package/npm-check-updates
