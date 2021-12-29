@@ -16,7 +16,7 @@ function About() {
                         &nbsp; She/Her 
                         <br/>
                         <i class="fas fa-university"></i>
-                        &nbsp; Second-Year Computer Engineering Student at UBC
+                        &nbsp; Third-Year Computer Engineering Student at UBC
                     </div>
                 </div>    
                 <div class="col s12 l8">
