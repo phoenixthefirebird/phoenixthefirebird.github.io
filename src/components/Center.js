@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
@@ -7,25 +7,25 @@ import Blog from './Blog';
 
 function Center({panel, long}) {
     if(!long) {
-        if(panel == 0) {
+        if(panel === 0) {
             return(null);
         }
-        if(panel == 1) {
+        if(panel === 1) {
             return(
                 <About/>
             );
         }
-        if(panel == 2) {
+        if(panel === 2) {
             return(
                 <Experience/>
             );
         }
-        if(panel == 3) {
+        if(panel === 3) {
             return(
                 <Projects/>
             );
         }
-        if(panel == 4) {
+        if(panel === 4) {
             return(
                 <Fun/>
             );

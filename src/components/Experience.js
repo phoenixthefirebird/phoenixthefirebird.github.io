@@ -31,6 +31,7 @@ function Experience({ long }) {
             <motion.div className="card-image waves-effect waves-block waves-light">
               <img
                 className="activator"
+                alt="UBC logo"
                 src="https://i2.wp.com/www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png?fit=2400%2C2400"
               />
             </motion.div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Languages from './Languages';
 import Tools from './Tools';
 
@@ -9,7 +9,7 @@ function About() {
                 <br/>
                 <br/>
                 <div className="col s12 l4">
-                    <img className="profile-picture" src=".\me.jpg" width="300" height="300" />
+                    <img className="profile-picture" alt="Phoenix" src=".\me.jpg" width="300" height="300" />
                     <div className="sec">
                         <br/>
                         <i class="fas fa-grin-alt"></i>
